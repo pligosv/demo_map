@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InfoWindowDemo</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string-array name="list_items">
+        <item>Карта</item>
+    </string-array>
+
+    <string name="action_websearch">Web search</string>
+
+</resources>
