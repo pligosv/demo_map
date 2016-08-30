@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
 
     <FrameLayout
         android:id="@+id/container_map"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:src="@drawable/button_plus"
+            android:text="Button"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:src="@drawable/button_minus"
+            android:text="Button"/>
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:src="@drawable/button_arrow"
+            android:text="Button"/>
+    </LinearLayout>
+
+
 
     <AbsoluteLayout
         android:layout_width="match_parent"
@@ -31,7 +60,7 @@
 
                 android:gravity="center"
                 android:text="Hello"
-                android:textColor="#000000" />
+                android:textColor="#000000"/>
 
             <Button
                 android:id="@+id/come_button"
@@ -39,20 +68,20 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
 
-                android:text="Проложить маршрут" />
+                android:text="Проложить маршрут"/>
 
             <Button
                 android:id="@+id/cancel_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Отмена" />
-
+                android:text="Отмена"/>
 
 
         </LinearLayout>
 
     </AbsoluteLayout>
+
 
 </RelativeLayout>
 

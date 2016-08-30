@@ -146,6 +146,10 @@ public class MapFragment
         mMap.setOnMapClickListener(this);
         mMap.setOnMarkerClickListener(this);
 
+        //mMap.getUiSettings().setZoomControlsEnabled(true);
+
+
+
         addMarkers();
 
         infoWindowContainer = rootView.findViewById(R.id.container_popup);
