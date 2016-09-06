@@ -1,7 +1,7 @@
 package com.example.infowindowdemo;
 
 /**
- * Created by Vladimir on 19.07.2016.
+ * НЕ МОЙ КЛАСС, ВЗЯТ ПРИМЕР НА ПРОСТОРАХ ВЕЛИКОГО ГУГЛА!
  */
 
 import android.util.Log;

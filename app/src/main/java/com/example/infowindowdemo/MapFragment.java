@@ -41,6 +41,12 @@ import java.util.concurrent.TimeUnit;
 import static android.view.View.*;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
+/*
+
+ ОТРИСОВКА СЛОЯ С ABSOLUTELAYPUT ТОЖЕ НЕ МОЯ
+
+ */
+
 public class MapFragment
         extends
         com.google.android.gms.maps.MapFragment
